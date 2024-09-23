@@ -1,0 +1,86 @@
+/* App.css */
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .guess-input {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Line styles */
+  .line {
+    display: flex;
+    gap: 5px;
+  }
+  
+  /* Tile styles */
+  .tile {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #4c1130;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tile:hover {
+    background-color: #f4a4b1; /* Change to a light color on hover */
+    transform: scale(1.1); /* Slightly increase size */
+    cursor: pointer; /* Change cursor to pointer */
+}
+  /* Correct guess styles */
+  .correct {
+    background-color: lightgreen;
+  }
+  
+  /* Included guess styles */
+  .included {
+    background-color: lightblue;
+  }
+  
+  /* Incorrect guess styles */
+  .incorrect {
+    background-color: lightgray;
+  }
+
+  .navbar {
+    background-color: #c86c9a;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.creator-name {
+    font-size: 1rem;
+}
+
+.instagram-link {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.instagram-link:hover {
+    color: #ff7f50;
+}
+
+  

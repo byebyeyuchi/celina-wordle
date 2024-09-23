@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: beige;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #fde6f0; /* Replace with your desired color */
+}
+
+
